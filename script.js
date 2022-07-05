@@ -1,24 +1,24 @@
 function calculate() {
 
-  let num1 = document.getElementById("num1").value;
+  let num1 = document.querySelector("num1").value;
 
-  let num2 = document.getElementById("num2").value;
+  let num2 = document.querySelector("num2").value;
 
-  let num3 = document.getElementById("num3").value;
+  let num3 = document.querySelector("num3").value;
 
-  let num4 = document.getElementById("num4").value;
+  let num4 = document.querySelector("num4").value;
 
-  let num5 = document.getElementById("num5").value;
+  let num5 = document.querySelector("num5").value;
 
-  let num6 = document.getElementById("num6").value;
+  let num6 = document.querySelector("num6").value;
 
-  let num7 = document.getElementById("num7").value;
+  let num7 = document.querySelector("num7").value;
 
-  let num8 = document.getElementById("num8").value;
+  let num8 = document.querySelector("num8").value;
 
-  let num9 = document.getElementById("num9").value;
+  let num9 = document.querySelector("num9").value;
 
-  let num10 = document.getElementById("num10").value;
+  let num10 = document.querySelector("num10").value;
 
   let averagenum = num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9 + num10;
 
@@ -37,5 +37,5 @@ function calculate() {
 
   let anz = parseInt(avg);
 
-  document.getElementById("averagenum").innerHTML =`Average is: ${anz}%`;
+  document.querySelector("averagenum").innerHTML =`Average is: ${anz}%`;
 }
