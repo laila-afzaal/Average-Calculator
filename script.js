@@ -33,9 +33,9 @@ function calculate() {
   let nenum9 = Number(num9);
   let nenum10 = Number(num10);
 
-  let avg = parseFloat(nenum1 + nenum2 + nenum3 + nenum4 + nenum5 + nenum6 + nenum7 + nenum8 + nenum9 + nenum10);
+  let avg = parseFloat((nenum1 + nenum2 + nenum3 + nenum4 + nenum5 + nenum6 + nenum7 + nenum8 + nenum9 + nenum10)/10);
 
   let anz = parseInt(avg);
 
-  document.getElementById("averagenum").innerHTML =`Average is: ${anz}`;
+  document.getElementById("averagenum").innerHTML =`Average is: ${anz}%`;
 }
