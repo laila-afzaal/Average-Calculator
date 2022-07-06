@@ -35,5 +35,5 @@ function calculate() {
 
   let anz = parseInt(avg);
 
-  document.querySelector("#averagenum").innerHTML =`Average is: ${anz}%`;
+  document.querySelector("#averagenum").innerHTML =`Average is: ${anz}`;
 }
